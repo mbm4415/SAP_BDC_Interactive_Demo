@@ -1,0 +1,420 @@
+SAP Business Data Cloud Interactive End-to-End scenario
+System Links:
+ 
+System	Link
+SAP BDC Cockpit	https://vp-bdc-poc06.eu10.hcs.cloud.sap/bdc-ui/index.html#/bdc_home
+
+Databricks	https://accounts.cloud.databricks.com/select-workspace?account_id=94dfa00d-4ae5-42a8-935a-e58467787…
+
+SAP Datasphere	https://vp-dsp-poc06.eu10.hcs.cloud.sap/
+
+SAP Analytics Cloud	https://vp-sac-poc06.eu10.analytics.cloud.sap/
+
+
+Use the email that was provided for the session sign-up. 
+4.1. SAP Business Data Cloud Administration
+SAP Business Data Cloud is a fully managed SaaS solution that unifies and governs all SAP data and seamlessly connects with third-party data—giving line-of-business leaders context to make even more impactful decisions.
+4.1.1. Creating SAP Business Data Cloud Formations
+Log In to SAP Business Data Cloud
+Business Administrator logs in to SAP Business Data Cloud Cockpit and navigates to the apps for administration work.
+ 
+SAP Business Data Cloud Cockpit provides one single view for all the apps available for administrator's work.
+1. Check the logon user.
+2. Click on the Expand icon.
+ 
+The navigation area on the left provides access to all the apps available in SAP Business Data Cloud.
+The home screen views the list of your most-recently worked-on Intelligent Applications and data packages or browse and explore the most recent Intelligent Applications and data packages made available by SAP.
+Intelligent Applications and Data Packages views full lists of Intelligent Applications and data packages, both yours and offered by SAP, and browse, explore and work on them.
+Catalog is used to discover, enrich, classify, and publish high-quality, trusted data and analytic assets from across your enterprise.
+System landscape monitors the connectivity of your system and identify issues.
+1. Explain the different sections of home screen and left navigation area.
+2. Click on System Landscape.
+ 
+In System Landscape, Business Administrator can monitor the connectivity of the system and identify issues.
+1. Click on Home.
+2. Click to close the navigation panel.
+ 
+4.1.3. Installing Intelligent Applications
+Review Installed Intelligent Applications
+Business Administrator reviews the documentation and details of the installed Intelligent Application.
+ 
+The Business Administrator navigates to Intelligent Applications and Data Packages.
+1. Click on Intelligent Applications and Data Packages.
+ 
+Business Administrator can check the available Intelligent Applications and Data packages and trigger the installation and activation.
+1. Click on Installed.
+ 
+Under the Installed tab, Business Administrator can review the installed Intelligent Applications and Data Packages.
+1. Click on Working Capital Insights.
+ 
+On the Details page, Business Administrator can review the documentation and details of this Intelligent Application.
+When an Intelligent Application is installed, data is loaded from the source system into SAP Datasphere, combined and prepared for analytics, and then exposed for consumption in SAP Analytics Cloud, where business users can consume it as stories.
+1. Click on the thumbnail.
+ 
+Business Administrator checks the preview screen of Intelligent Application and navigates to details tab.
+1. Click on Close.
+2. Click on Details and scroll down
+ 
+Business Administrator reviews the details of the content in this Intelligent Application.
+When an Intelligent Application is installed, data is loaded from the source system into SAP Datasphere, combined and prepared for analytics, and then exposed for consumption in SAP Analytics Cloud, where business users can consume it as stories.
+1. Scroll down to the Content section and explain the contents installed.
+ 
+4.2. Intelligent Applications Consumption
+Use SAP Analytics Cloud as a powerful visualization and exploration tool for your installed BDC Intelligent Applications.
+
+Intelligent Applications are low-code apps that are delivered to users as SAP Analytics Cloud stories, supported by content prepared and modeled in SAP Datasphere. SAP Analytics Cloud offers several key benefits, including seamless content viewing through tools like stories, advanced analytics features, and access to reliable data through integration with other SAP products. By consuming your Intelligent Applications as stories, you can gain insights, make informed decisions, and drive growth through rich and interactive dashboards for data.
+4.2.1. Viewing Working Capital Intelligent Application
+View Working Capital Intelligent Application
+Business Analyst opens the Working Capital Intelligent Application and starts to review with finance team.
+ 
+Please use the Access URL to log in to SAP Analytics Cloud 
+1. Click on File button.
+2. Click on My Files.
+3. Navigate to folder path: Public > 01_OCTMAXF_INTELLIGENT APPLICATION > OCTMAXF_USER<##>.
+4. Click on USER<##>_SAP_IA_WorkingCapital.
+ 
+The overview page gives an overview of working capital and includes KPIs, such as Net Working Capital, Cash Conversion Cycle, and Total Net Sales.
+Working capital management is a business strategy that helps companies effectively make use of current assets and maintain sufficient cash flow to meet short-term goals and obligations. It is one of the most important topics of a CFO nowadays, because it is essential to the health of every business and can provide a boost to the operational efficiency of a business.
+Companies need to have enough cash available to cover both planned and unexpected costs, while also making the best use of the funds available to fuel growth. This is achieved by the effective management of accounts payable, accounts receivable, inventory, and cash.
+1. Click on X to hide the navigation panel.
+2. Click on > to move to the next page.
+ 
+Action 3 - Move to Liquidity & Cash page
+Liquidity & Cash page provides an overview of KPIs related to liquidity and cash, such as Net Assets in Bank, Total Liquidity, Return on Capital Employed (ROCE), and Cash Asset Ratio, and Quick Ratio.
+ 
+4.3. Enriching Data Product in SAP Databricks
+Users with an appropriate Databricks role can consume, query, process, and transform data products in Databricks in SAP Business Data Cloud, including working with SQL and Python notebooks and using the data products for various data science and AI/ML projects.
+Share Data Product
+Business Analyst shares the required company code data product to SAP Databricks.
+ 
+Action 1 - Log In to BDC Cockpit
+Log in to SAP Business Data Cloud instance with email used for session sign-up.
+ 
+Action 2 - Search Data Product in Catalog
+1. Click on Catalog & Marketplace.
+2. Click on Search.
+3. Input Company Code.
+4. Click on Data Product.
+5. Select Filter by S/4HANA PCE System Instance Name.
+6. Click on Company Code Data Product to open it.
+ 
+Action 3 - View Company Code Data Product Details
+Business Analyst can review the data product properties and source properties.
+A data product is a self-contained set of tables containing data exposed for consumption outside the producing application or service via APIs.
+1. Show the properties of data product.
+2. Click on Company Code to view API details.
+ 
+Action 4 - Review available objects under company code data product
+By clicking on the company code API, Business Analyst can review all the available objects of the data product.
+1. Click on Share.
+ 
+Action 5 - Share Data Product in Catalog
+Note: Since the data product has already been shared before, you will see that the share name already exists.
+To make data products available for consumption in SAP Databricks, Business Analysts shares data products from the SAP Business Data Cloud catalog to SAP Databricks. Once this is successfully, Business Analyst hands over to Data Scientist.
+1. Explain that the data product has already been shared to SAP Databricks.
+2. Click on Close.
+ 
+View Delta Share Received
+Data Scientist logs in to SAP Databricks and finds that the company code share is received. This provides the right training data to start the ML flow work.
+ 
+Action 1 - Log In to SAP Databricks
+Log in to SAP Databricks instance with the email used for session sign-up.
+1. Input your email address: email used to sign-up for interactive session
+2. Click on Continue
+ 
+Action 2 - Sign In with SSO
+1. Click on Continue with SSO.
+ 
+Action 3 - Review Company Code Share
+Data Scientist logs into workspace and locates the delta share which has been received. The delta share includes all the objects from the shared data product. Data scientist then looks at the company code and all the columns that are coming directly from S/4HANA system.
+1. Click on Catalog.
+2. Click on the dropdown icon to open company_code_share.
+3. Click on the dropdown icon to open company code.
+4. Select companycode.
+5. Show the overview of the columns.
+ 
+Action 4 - Compute Sample Data
+Data Scientist decides to sample the data using the serverless compute that is available.
+1. Click on Sample Data.
+2. Click on Select compute.
+ 
+Action 5 - Start Compute
+ 
+Action 6 - Review Sample Data
+Now Data Scientist looks at the data and has a good idea of what the data entails and gets to work in the notebook.
+ 
+Build, Train, Experiment and Finetune Models in Notebook
+Data Scientist starts to build, train, experiment the finetune the models in notebook.
+ 
+Action 1 - Open Company Clustering Notebook
+Data Scientist opens the company clustering notebook to start his data scientist job.
+Run all the steps in this notebook.
+1. Click on Workspace.
+2. Click on OCTMAXF_Data_Engineering
+3. Click on Company_Clusteringto open the notebook.
+ 
+Action 2 - Install Packages
+Within the notebook, Data Scientist first installs the necessary Python packages and import the packages into the notebook environment.
+1. Scroll down.
+ 
+Action 3 - Create Catalog
+Data Scientist uses SQL functions in order to create a new catalog called companycode_data_product and set it as the default catalog.
+1. Scroll down.
+ 
+Action 4 - Cleanse and Prepare Data
+Data Scientist performs several general data cleansing steps together with OneHotEncoding in order to have within each column a numeric representation, which is needed for clustering algorithms
+1. Scroll down.
+ 
+Action 5 - Perform hyperparameter optimization and apply best model
+Data Scientist performs a hyperparameter optimization with the help of the Bayesian Search optimization. For the clustering he uses the Affinity Propagation algorithm. After the hyperparameter optimization is performed, the model with the highest silhouette score is applied as the best model to the prepared clustering dataset.
+1. Scroll down.
+ 
+Action 6 - Store Resulting Dataset
+The resulting clustering labels are stored and merged together with a T-SNE based representation of the input dataset.
+1. Scroll down.
+ 
+Action 7 - Write data into Delta Share
+After this, Data Scientist creates a Delta Share and add the clustered company data to the Delta Share.
+ 
+Publish Data Product
+Data Scientist uses Python SDK for publishing data products in SAP Business Data Cloud so that it becomes discoverable in SAP Datasphere.
+ 
+Action 1 - Install python SDK
+Data Scientist opens another notebook: publish_share.
+1. Go back to OCTMAXF_Data_Engineering folder in Workspace.
+2. Click on Publish_Data_Product to open the notebook.
+ 
+Action 2 - Install and Verify Python SDK
+Data Scientist executes pip install sap-bdc-connect-sdk to install the python SDK and verifies the SDK installation by executing pip show sap-bdc-connect-sdk.
+1. Scroll down.
+ 
+Action 3 - Create Share
+Data Scientist creates a share aligning with Open Resource Discovery protocol.
+A share is a mechanism for distributing and accessing data across different systems. Creating or updating a share involves including specific attributes, such as @openResourceDiscoveryV1, in the request body, aligning with the Open Resource Discovery protocol. This procedure ensures that the share is properly structured and described according to specified standards, facilitating effective data sharing and management.
+Now we will share the comany code clusters table via Delta Share and publish it to SAP Datasphere as a new data product.
+Select Catalog in the left navigation menu.
+  
+Under My organization catalog section, expand company_code_data_product  > company_code and select the company_code_clusters table.
+  
+Next select Actions and choose Share via Delta Sharing (under 3-dot kebab icon on the upper right).
+ 
+Select Create a new share with the table.
+Provide Share name and Recipients:
+•	Share name : company_code_clustering_share_{placeholder|userid}
+Note: Make sure username in the Share name is lowercase. In the following steps we will execute codes in a notebook. They are case-sensitive. So make sure all characters in the username are lowercase
+•	Recipients (optional) : sap-business-data-cloud
+Select Share.
+ 
+Select the Gear icon on the catalog and then select Delta Sharing.
+ 
+Switch to Shared by me and filter for your username {placeholder|userid} (no space at the end) and select the delta share just created.
+Note: Refresh the browser if the data share does not appear.
+ 
+Assets in the share you created will be displayed.
+ 
+
+Scroll down.
+share_name : "company_code_clustering_share_<lowercase_username>"
+title : "Company Code Clustering Data Product From {placeholder|userid}"
+ Action 4 - Create Share CSN and Publish Data Product
+Data Scientist creates share CSN and publishes the data product.
+The CSN serves as a standardized format for configuring and describing shares within a network. To create or update the CSN for a share, it's advised to prepare the CSN content in a separate file and include this content in the request body. This approach ensures accuracy and compliance with the CSN interoperability specifications, facilitating consistent and effective share configuration across systems.
+A Data Product is an abstraction that represents a type of data or data set within a system, facilitating easier management and sharing across different platforms. It bundles resources or API endpoints to enable efficient data access and utilization by integrated systems. Publishing a Data Product allows these systems to access and consume the data, ensuring seamless communication and resource sharing.
+ 
+4.4 Install Company Clustering Data Product from SAP Databricks
+Data Scientist informs Data Analyst that the company clustering data product from SAP Databricks is ready for consumption to enhance the Working Capital Intelligent Application.
+ 
+Action 1 - Find SAP Databricks Data Product in Catalog
+Log in to SAP Datasphere instance with your email provided for the session sign-up.
+Data Analyst discovers the company clustering data product shared from SAP Databricks.
+1. Click on Catalog & Marketplace.
+2. Click on Search.
+3. Filter on Data Products.
+4. Click on Databricks as system instance filter.
+5. Click on Company Clustering Data Product to open it.
+ 
+Action 2 - Open Data Product
+Data Analyst reviews the data product properties and triggers the install.
+1. Click on Install.
+ 
+Action 3 - Select Target Space
+Data Analyst selects his own target space and Databricks connection.
+1. Click on OCTMAXF_USER<##>.
+2. Click on Next Step.
+ 
+Action 4 - Import Entities
+Data Analyst starts import and deploy.
+1. Click on Start Import and Deploy.
+ 
+Check Installed Entities In Target Space
+Now Data Analyst can see the entity in his own space: one local table with company clustering data.
+ 
+Action 1 - Enter Target Space
+After successful data product installation, Data Analyst can see the entity: local table company_code_cluster in his own space. This object is a shared object from SAP-Managed space from Databricks.
+1. Click on Data Builder.
+2. Select space: OCTMAXF_USER<##>.
+3. Click on Tables.
+4. Click on local table: company_code_clusters.
+ 
+4.5 Enhancing Analytic Model
+Create Enhanced Fact View Combining Company Cluster Data
+Data Analyst successfully adds the company clustering data from SAP Databricks to his enhanced fact view.
+ 
+Action 1 - Open data builder
+Log in to SAP Datasphere instance with email used to sign-up for the session.
+Data Analyst wants to enhance the cash flow fact view in SAP Datasphere space with the company cluster data from SAP Databricks.
+1. Click on Data Builder.
+2. Click on Space: OCTMAXF_USER<##>.
+ 
+Action 2 - Create a new graphical view
+Data Analyst starts to build a new graphical view.
+1. Click on the + to create a new object.
+2. Click on Graphical View.
+ 
+Action 3 - Drag and drop the original cash liquidity actual flow
+Data Analyst wants to leverage the original SAP-managed fact view so he adds the view to the graphic area.
+1. Click on the view: Actual Cash Flow Currency Role Currency (HL)
+2. Drag and drop the view to the canvas.
+ 
+Action 4 - Drag and drop company code cluster and join
+Data Analyst adds the company clustering data to join with existing cash flow actual view.
+ 
+Action 5 - Select Cardinality
+Data Analyst selects the cardinality for the 2 joined views.
+1. Select Exactly One (1) for company_code_clusters.
+ 
+Action 6 - Input the view name
+Data analyst inputs the name of the enhanced view.
+1. Input view name: <SAP ID>_Enh_HL_CashActualFlow.
+2. Scroll down.
+ 
+Action 7 - Change to measure
+Data Analyst adds the clustering data as measure.
+1. Click on the 3 dots next to TSNE_X.
+2. Click on Change to Measure.
+3. Repeat the above 2 steps for TSNE_Y.
+ 
+Action 8 - Add association
+To keep the semantics, data analyst can easily copy the association from source view.
+1. Click on +
+2. Select Copy from Source...
+ 
+Action 9 - Copy association from source view
+1. Select All.
+2. Click on Create.
+ 
+Action 10 - Save the view
+1. Click on Save.
+ 
+Action 11 - Save
+Now Data Analyst successfully saves the enhanced fact view combining company code clustering data.
+1. Click on Save.
+ 
+Deploy Enhanced Fact View
+The Data Analyst deploys the enhanced view and preview the cash flow data with company clustering.
+ 
+Action 1 - Expose the view for consumption and deploy view
+Data Analyst can easily deploy the view.
+1. Click to turn on Expose for Consumption.
+2. Click on Deploy.
+ 
+Action 2 - Preview data
+By using Data Viewer, Data Analyst confirms that the company code clustering data is added into the enhanced view.
+1. Click on the view.
+2. Click on Data Viewer.
+3. Scroll from left to right to show the 3 added columns.
+4. Click on above space name to return to Data Builder.
+ 
+4.5.1. Creating Enhanced Analytic Model
+Create Enhanced Analytic Model
+Data Analyst creates a new analytic model based on the enhanced fact view.
+ 
+Action 1 - Create a new analytical model
+Data Analyst starts to create an enhanced analytic model.
+1. Click on +.
+2. Click on Analytic Model.
+ 
+Action 2 - Drag and drop the enhanced fact view to canvas
+Data Analyst can create the analytic model by easily dragging and dropping the enhanced fact view to canvas.
+1. Click on the enhanced fact view created in previous step.
+2. Drag and drop the view to the canvas.
+ 
+Action 3 - Select all attributes and measures to analytic model
+Data Analyst can easily include the associated dimensions from the fact view to analytic model.
+1. Click on Select.
+ 
+Action 4 - Input name for analytic model
+Now the analytic model is ready to be deployed.
+1. Input name: <SAP ID>_Enh_RL_CashActualFlow.
+2. Click on Save.
+ 
+Action 5 - Save the analytic model
+Now the enhanced analytic model is saved.
+1. Click on Save.
+ 
+Deploy Enhanced Analytic Model
+Data Analyst previews the enhanced data in new analytic model.
+ 
+Action 1 - Deploy analytic model
+1. Click on Deploy.
+2. Click on Preview.
+ 
+Action 2 - Preview data
+Now Data Analyst is able to preview the enhanced company code clustering data in the analytic model.
+Now it is ready to enhance the Insight App.
+1. Click on Rows button to add Company Code to Rows.
+ 
+4.6. Enhancing Intelligent Applications
+4.6.1. Enhancing Intelligent Application with Enhanced Analytic Model
+Data Analyst copies his own version of Working Capital Intelligent Application and wants to enhance the visualizations.
+Please use the app switcher on top right corner to switch from DSP to SAC.
+Action 3 - Open the Story in Edit Mode
+Data Analyst starts to edit the copied SAC story.
+1. Navigate to the folder Public/01_OCTMAXF_INTELLIGENT APPLICATION/OCTMAXF_USER<##>/USER<##>_SAP_IA_WorkingCapital
+2. Select the story.
+3. Click on the three dots icon.
+4. Click on Open in Story Edit Mode.
+ 
+Add Company Code Cluster Scatterplot Chart
+Data Analyst enhances the copied Working Capital Intelligent Application with company code clustering chart.
+ 
+Action 1 - Duplicate the cash flow trend chart
+1. Click on the Liquidity & Cash tab.
+ 
+Action 2 - Select model
+1. Click on Select Model.
+2. Click on OK.
+ 
+Action 3 - Select other model
+1. Click on Select other model...
+ 
+Action 4 - Select connection and space
+1. Select connection SAPSRC.
+2. Select Space OCTMAXF_USER<##>.
+ 
+Action 5 - Select enhanced analytic model
+1. Select the enhanced analytic model created in previous step.
+ 
+Action 6 - Configure the chart settings
+1. Select Scatterplot chart.
+2. Select TSNE_X as X-Axis
+3. Select TSNE_Y as Y-Axis
+4. Select Company Code as Dimensions.
+5. Select Country/Region as Color.
+6. Change color palette.
+7. Change the chart title to Clustering by Company Code.
+ 
+Action 7 - Adjust styling
+1. Click on Styling.
+2. Increase the data marker size to 125%
+3. Click on Save.
+4. Click on View.
+ 
+Action 8 - Save and view update story
+Data Analyst saves the enhanced Intelligent Application with company clustering chart.
+1. Click on X to close the Filters section.
+2. Click on right arrow to navigate to the next page.
+ 
+Action 9 - View clustering by company code chart
+The clustering chart can help grouping companies with similar attributes to support competitive analysis, benchmarking and strategic decisions like restructuring, expansions, etc.
+ 
