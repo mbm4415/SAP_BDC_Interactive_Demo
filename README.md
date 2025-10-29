@@ -3,4 +3,5 @@ Please use either Interactive_Session_Steps or MaxAttention_Forum_BDC_Interactiv
 
 
 
-![BDC_Arch](https://github.com/user-attachments/assets/9e78a82b-f4fe-4136-a715-56e6d60f93c3)
+<img width="1194" height="983" alt="image" src="https://github.com/user-attachments/assets/0fabba35-8d21-45f5-942e-119c33497ca4" />
+
